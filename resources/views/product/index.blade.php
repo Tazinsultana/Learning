@@ -10,11 +10,11 @@
 
             <div class="col-md-8">
                 <div class="d-flex justify-content-end">
-                    <a href="{{ route('category.create') }}" class="btn btn-primary"> Create</a>
+                    <a href="{{ route('product.create') }}" class="btn btn-primary"> Create</a>
                 </div>
 
                 <div class="card-header my-3">
-                    <h3 class="card-title">Categories List</h3>
+                    <h3 class="card-title">Product List</h3>
 
                 </div>
 
@@ -24,14 +24,18 @@
                         <thead>
                             <tr>
                                 <th scope="col">Serial No</th>
-                                <th scope="col">Title</th>
-                                <th scope="col">Is Active</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Category Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Product Quantity</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
                                 <td>Mark</td>
                                 <td>Otto</td>
                                 <td>
