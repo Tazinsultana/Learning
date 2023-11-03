@@ -19,6 +19,7 @@
 
 
 @yield('content')
+{{-- @yield('content')  --}}
 </body>
 
 </html>

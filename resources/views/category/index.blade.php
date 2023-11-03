@@ -12,6 +12,7 @@
                 <div class="d-flex justify-content-end">
                     <a href="{{ route('category.create') }}" class="btn btn-primary"> Create</a>
                 </div>
+                <a href="{{ route('product.index') }}" class="btn btn-primary"> Product</a>
 
                 <div class="card-header my-3">
                     <h3 class="card-title">Categories List</h3>
