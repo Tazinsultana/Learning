@@ -12,7 +12,7 @@
                         <h3 class="card-title"> Create Product </h3>
 
                     </div>
-                    <form>
+                    <form action=""method="  ">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" class="form-control" id="name" name="name">
@@ -31,11 +31,11 @@
                         <div class="form-group">
                            <label for="category my-2">Product Category</label>
                             <select name="category" id="category" class="form-control">
-                                <option value="">ALL</option>
+                                <option value="">ALL</option> </select>
 
                         </div>
 
-                        <button type="submit" class="btn btn-primary my-2">Submit</button>
+                        <button type="submit" class="btn btn-primary my-3">Submit</button>
                     </form>
                 </div>
 
